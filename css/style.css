@@ -1,0 +1,58 @@
+body {
+     font-family: "Amiri", serif;
+     background-image: url(../img/bg.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: top center;
+     position: relative;
+}
+body::before {
+     content: "";
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     background: rgba(49, 71, 89, 0.6);
+     z-index: -1;
+ }
+ .title {
+     padding-top: 250px;
+     color: white;
+ }
+ .title h1 {
+     padding-bottom: 5rem;
+     font-size: 5rem;
+     font-weight: 700;
+     line-height: 56px;
+ }
+ .title p {
+     padding-bottom: 1rem;
+     font-size: 1.5rem;
+ }
+  .count-down {
+     width: 60%;
+     margin: 90px auto;
+     padding-bottom: 200px;
+}
+ .counter {
+     display: inline-block;
+     margin: 0 15px;
+     color: #fff;
+     border: 1px solid #fff;
+     padding: 20px;
+     border-radius: 10px;
+}
+ .count-amount {
+     font-size: 60px;
+     display: block;
+     font-weight: bold;
+     text-align: center;
+}
+ .count-period {
+     font-size: 30px;
+     display: block;
+     font-weight: bold;
+     color: #fff;
+     text-align: center;
+}
