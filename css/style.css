@@ -69,17 +69,20 @@ body::before {
         padding-top: 50px;
     }
     .title h1 {
-        font-size: 4rem;
-        max-width: 80%;
+        font-size: 3rem;
+        max-width: 90%;
         margin: auto;
         padding-bottom: 0;
     }
     .title p {
-       max-width: 80%;
+       max-width: 90%;
        margin: auto;
+       font-size: 1rem;
+       padding-bottom: 0 !important;
     }
     .count-down {
         flex-wrap: wrap;
+        margin-top: 50px !important;
     }
     
 }
